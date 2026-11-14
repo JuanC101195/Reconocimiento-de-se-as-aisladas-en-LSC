@@ -12,7 +12,7 @@ Marcar con [x] al terminar. Una rama por tarea. Responsables a acordar entre los
 - [ ] T6 Preparar scripts para el clúster UNAB (config, rutas, entorno). Capacitación 11 nov 18:00 COL.
 
 ## 11–18 nov (clúster)
-- [ ] T7 Transformer sobre landmarks y ajuste de hiperparámetros. (R3)
+- [x] T7 Transformer sobre landmarks y ajuste de hiperparámetros. (R3)
 - [ ] T8 Entrenamiento final del modelo de video en el clúster. (R4)
 - [ ] T9 Comparar enfoques y decidir ensamble por resultados de LOSO. (R5.1)
 - [ ] T10 Entrenamiento final con todos los firmantes e inferencia sobre test -> CSV. (R5.2–R5.4)
