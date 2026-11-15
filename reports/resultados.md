@@ -64,6 +64,29 @@ Resumen (mismos folds LOSO, misma corrida de SVM con `SEQ_LEN` 96):
 
 Macro-F1 medio: SVM 0,903; Transformer 0,949 (media de semillas) y 0,950 (OOF del ensamble). La desviación entre semillas de la accuracy media LOSO es 0,004. Épocas elegidas por fold (M02, M03, M04): semilla 42 → 39, 39, 40; semilla 7 → 42, 12, 31; semilla 123 → 16, 30, 26.
 
+## 6. Comparación de modelos sobre landmarks (T9)
+Notebook: `notebooks/LSC5_Transformer_TCN_SVM_LOSO_espejo.ipynb`. Kaggle, GPU Tesla T4, 3 semillas (42, 7, 123), `SEQ_LEN` 96, 436 características, espejo + TTA, LOSO anidado.
+
+| Modelo | Accuracy OOF (ensamble de semillas) |
+|---|---|
+| SVM | 0,903 |
+| TCN | 0,911 |
+| Transformer | 0,956 |
+| Promedio uniforme | 0,954 |
+
+Transformer por participante reservado: M02 0,995; M03 0,928; M04 0,947.
+
+## 7. Decisión del ensamble
+Regla: se usa un ensamble solo si su estimación anidada supera al mejor modelo individual por al menos 0,005.
+
+- Mejor combinación de la rejilla: 0,961.
+- Selección anidada: 0,949 (M02 1,000; M03 0,915; M04 0,933).
+- Mejor modelo individual (Transformer): 0,956.
+
+Decisión: Transformer solo (pesos SVM 0, TCN 0, Transformer 1). Épocas finales: 25. Checkpoints `.pt`: 3 (uno por semilla).
+
+Errores del modelo final: 49 de 1125, de los cuales 41 son de `sign_05` (recall 0,82), confundida con `sign_04` (27) y `sign_02` (14).
+
 ## Lectura honesta
 - El espejo explica casi toda la mejora de la sección 4: de ~0,72 a ~0,91 de media, y el peor participante pasa de ~0,45 a ~0,92.
 - Con el mismo protocolo de GPU (3 semillas, `SEQ_LEN` 96, 436 características), el Transformer (0,956 con ensamble de semillas; 0,952 de media entre semillas) supera al TCN (0,911; 0,909) y al SVM (0,903) en la media y en el peor participante. La comparación con el TCN es por fin válida: +4,5 puntos con ensamble de semillas y +4,2 de media entre semillas. Ese margen sale de M02 (+4,5) y M04 (+9,1); en M03 empatan (0,928 los dos).
