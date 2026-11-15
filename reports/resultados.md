@@ -76,14 +76,14 @@ Notebook: `notebooks/LSC5_Transformer_TCN_SVM_LOSO_espejo.ipynb`. Kaggle, GPU Te
 
 Transformer por participante reservado: M02 0,995; M03 0,928; M04 0,947.
 
-## 7. Decisión del ensamble
+## 7. Selección del ensamble
 Regla: se usa un ensamble solo si su estimación anidada supera al mejor modelo individual por al menos 0,005.
 
 - Mejor combinación de la rejilla: 0,961.
 - Selección anidada: 0,949 (M02 1,000; M03 0,915; M04 0,933).
 - Mejor modelo individual (Transformer): 0,956.
 
-Decisión: Transformer solo (pesos SVM 0, TCN 0, Transformer 1). Épocas finales: 25. Checkpoints `.pt`: 3 (uno por semilla).
+Resultado de la regla: modelo individual (Transformer; pesos SVM 0, TCN 0, Transformer 1). Épocas finales: 25. Checkpoints `.pt`: 3 (uno por semilla).
 
 Errores del modelo final: 49 de 1125, de los cuales 41 son de `sign_05` (recall 0,82), confundida con `sign_04` (27) y `sign_02` (14).
 
