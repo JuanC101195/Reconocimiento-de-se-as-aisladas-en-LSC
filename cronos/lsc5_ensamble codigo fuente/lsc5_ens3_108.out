@@ -1,0 +1,77 @@
+========================================================================
+PyTorch 2.4.1+cpu | Dispositivo: cpu
+CPU threads: 4
+Parámetros -> Transformer: 84,034 | CNN1D: 38,213 | Lineal: 15,265 | Total: 137,512
+Semillas (3): [42, 7, 123] | Salida: /home/grupo11/resultados/lsc5_t10_ens3_cronos
+========================================================================
+Landmarks train: /home/grupo11/Dataset/train/landmarks (1125 muestras)
+Procesando landmarks:   0%|          | 0/1125 [00:00<?, ?it/s]Procesando landmarks:   3%|▎         | 30/1125 [00:00<00:03, 297.40it/s]Procesando landmarks:   5%|▌         | 61/1125 [00:00<00:03, 300.43it/s]Procesando landmarks:   8%|▊         | 94/1125 [00:00<00:03, 312.87it/s]Procesando landmarks:  11%|█▏        | 127/1125 [00:00<00:03, 317.87it/s]Procesando landmarks:  14%|█▍        | 159/1125 [00:00<00:03, 316.98it/s]Procesando landmarks:  17%|█▋        | 192/1125 [00:00<00:02, 318.72it/s]Procesando landmarks:  20%|██        | 225/1125 [00:00<00:02, 319.31it/s]Procesando landmarks:  23%|██▎       | 257/1125 [00:00<00:02, 315.19it/s]Procesando landmarks:  26%|██▌       | 289/1125 [00:00<00:02, 314.16it/s]Procesando landmarks:  29%|██▊       | 321/1125 [00:01<00:02, 312.79it/s]Procesando landmarks:  31%|███▏      | 354/1125 [00:01<00:02, 315.58it/s]Procesando landmarks:  34%|███▍      | 387/1125 [00:01<00:02, 317.85it/s]Procesando landmarks:  37%|███▋      | 419/1125 [00:01<00:02, 314.98it/s]Procesando landmarks:  40%|████      | 451/1125 [00:01<00:02, 312.63it/s]Procesando landmarks:  43%|████▎     | 483/1125 [00:01<00:02, 298.88it/s]Procesando landmarks:  46%|████▌     | 515/1125 [00:01<00:02, 304.41it/s]Procesando landmarks:  49%|████▉     | 549/1125 [00:01<00:01, 312.72it/s]Procesando landmarks:  52%|█████▏    | 583/1125 [00:01<00:01, 319.74it/s]Procesando landmarks:  55%|█████▍    | 616/1125 [00:01<00:01, 322.54it/s]Procesando landmarks:  58%|█████▊    | 649/1125 [00:02<00:01, 320.94it/s]Procesando landmarks:  61%|██████    | 682/1125 [00:02<00:01, 320.31it/s]Procesando landmarks:  64%|██████▎   | 715/1125 [00:02<00:01, 322.40it/s]Procesando landmarks:  66%|██████▋   | 748/1125 [00:02<00:01, 323.10it/s]Procesando landmarks:  69%|██████▉   | 781/1125 [00:02<00:01, 322.47it/s]Procesando landmarks:  72%|███████▏  | 814/1125 [00:02<00:00, 319.06it/s]Procesando landmarks:  75%|███████▌  | 846/1125 [00:02<00:00, 319.06it/s]Procesando landmarks:  78%|███████▊  | 878/1125 [00:02<00:00, 319.26it/s]Procesando landmarks:  81%|████████  | 910/1125 [00:02<00:00, 318.90it/s]Procesando landmarks:  84%|████████▍ | 944/1125 [00:02<00:00, 322.58it/s]Procesando landmarks:  87%|████████▋ | 977/1125 [00:03<00:00, 324.78it/s]Procesando landmarks:  90%|████████▉ | 1011/1125 [00:03<00:00, 327.52it/s]Procesando landmarks:  93%|█████████▎| 1045/1125 [00:03<00:00, 330.36it/s]Procesando landmarks:  96%|█████████▌| 1079/1125 [00:03<00:00, 329.40it/s]Procesando landmarks:  99%|█████████▉| 1113/1125 [00:03<00:00, 329.90it/s]Procesando landmarks: 100%|██████████| 1125/1125 [00:03<00:00, 319.12it/s]
+Espejando landmarks:   0%|          | 0/1125 [00:00<?, ?it/s]Espejando landmarks:   2%|▏         | 20/1125 [00:00<00:05, 190.63it/s]Espejando landmarks:   4%|▎         | 41/1125 [00:00<00:05, 199.52it/s]Espejando landmarks:   6%|▌         | 64/1125 [00:00<00:05, 211.77it/s]Espejando landmarks:   8%|▊         | 88/1125 [00:00<00:04, 220.45it/s]Espejando landmarks:  10%|▉         | 112/1125 [00:00<00:04, 226.22it/s]Espejando landmarks:  12%|█▏        | 136/1125 [00:00<00:04, 228.92it/s]Espejando landmarks:  14%|█▍        | 159/1125 [00:00<00:04, 224.92it/s]Espejando landmarks:  16%|█▌        | 182/1125 [00:00<00:04, 221.90it/s]Espejando landmarks:  18%|█▊        | 206/1125 [00:00<00:04, 224.86it/s]Espejando landmarks:  20%|██        | 229/1125 [00:01<00:04, 221.06it/s]Espejando landmarks:  22%|██▏       | 252/1125 [00:01<00:04, 214.58it/s]Espejando landmarks:  24%|██▍       | 274/1125 [00:01<00:04, 212.41it/s]Espejando landmarks:  26%|██▋       | 296/1125 [00:01<00:03, 213.35it/s]Espejando landmarks:  28%|██▊       | 319/1125 [00:01<00:03, 216.77it/s]Espejando landmarks:  30%|███       | 342/1125 [00:01<00:03, 218.26it/s]Espejando landmarks:  32%|███▏      | 365/1125 [00:01<00:03, 220.92it/s]Espejando landmarks:  34%|███▍      | 388/1125 [00:01<00:03, 221.48it/s]Espejando landmarks:  37%|███▋      | 411/1125 [00:01<00:03, 216.74it/s]Espejando landmarks:  38%|███▊      | 433/1125 [00:01<00:03, 212.93it/s]Espejando landmarks:  40%|████      | 455/1125 [00:02<00:03, 210.02it/s]Espejando landmarks:  42%|████▏     | 477/1125 [00:02<00:03, 212.23it/s]Espejando landmarks:  44%|████▍     | 500/1125 [00:02<00:02, 215.23it/s]Espejando landmarks:  47%|████▋     | 524/1125 [00:02<00:02, 222.23it/s]Espejando landmarks:  49%|████▊     | 548/1125 [00:02<00:02, 227.32it/s]Espejando landmarks:  51%|█████     | 573/1125 [00:02<00:02, 232.42it/s]Espejando landmarks:  53%|█████▎    | 598/1125 [00:02<00:02, 236.21it/s]Espejando landmarks:  55%|█████▌    | 622/1125 [00:02<00:02, 231.11it/s]Espejando landmarks:  57%|█████▋    | 646/1125 [00:02<00:02, 227.11it/s]Espejando landmarks:  59%|█████▉    | 669/1125 [00:03<00:02, 223.37it/s]Espejando landmarks:  62%|██████▏   | 692/1125 [00:03<00:01, 223.43it/s]Espejando landmarks:  64%|██████▎   | 716/1125 [00:03<00:01, 226.20it/s]Espejando landmarks:  66%|██████▌   | 740/1125 [00:03<00:01, 228.08it/s]Espejando landmarks:  68%|██████▊   | 763/1125 [00:03<00:01, 226.29it/s]Espejando landmarks:  70%|██████▉   | 787/1125 [00:03<00:01, 228.41it/s]Espejando landmarks:  72%|███████▏  | 811/1125 [00:03<00:01, 230.27it/s]Espejando landmarks:  74%|███████▍  | 835/1125 [00:03<00:01, 229.94it/s]Espejando landmarks:  76%|███████▋  | 858/1125 [00:03<00:01, 225.62it/s]Espejando landmarks:  78%|███████▊  | 881/1125 [00:03<00:01, 223.25it/s]Espejando landmarks:  80%|████████  | 904/1125 [00:04<00:01, 217.42it/s]Espejando landmarks:  82%|████████▏ | 928/1125 [00:04<00:00, 223.19it/s]Espejando landmarks:  85%|████████▍ | 952/1125 [00:04<00:00, 227.21it/s]Espejando landmarks:  87%|████████▋ | 976/1125 [00:04<00:00, 230.78it/s]Espejando landmarks:  89%|████████▉ | 1001/1125 [00:04<00:00, 233.22it/s]Espejando landmarks:  91%|█████████ | 1026/1125 [00:04<00:00, 236.59it/s]Espejando landmarks:  93%|█████████▎| 1050/1125 [00:04<00:00, 237.26it/s]Espejando landmarks:  95%|█████████▌| 1074/1125 [00:04<00:00, 230.23it/s]Espejando landmarks:  98%|█████████▊| 1098/1125 [00:04<00:00, 230.10it/s]Espejando landmarks: 100%|█████████▉| 1122/1125 [00:05<00:00, 227.24it/s]Espejando landmarks: 100%|██████████| 1125/1125 [00:05<00:00, 223.62it/s]
+[Transformer | seed=42] M02: acc=0.9947 | f1=0.9946 | ep=30 | 122.1s
+[Transformer | seed=42] M03: acc=0.9840 | f1=0.9839 | ep=43 | 159.9s
+[Transformer | seed=42] M04: acc=0.9280 | f1=0.9299 | ep=18 | 82.7s
+[Transformer | seed=7] M02: acc=0.9547 | f1=0.9541 | ep=9 | 54.5s
+[Transformer | seed=7] M03: acc=1.0000 | f1=1.0000 | ep=26 | 109.9s
+[Transformer | seed=7] M04: acc=0.8960 | f1=0.8984 | ep=15 | 74.1s
+[Transformer | seed=123] M02: acc=0.9920 | f1=0.9920 | ep=20 | 89.4s
+[Transformer | seed=123] M03: acc=0.9947 | f1=0.9946 | ep=52 | 188.7s
+[Transformer | seed=123] M04: acc=0.9120 | f1=0.9140 | ep=18 | 83.6s
+
+>>> Transformer OOF Accuracy: 0.963556 | Macro-F1: 0.963982
+    M02: 0.9920
+    M03: 0.9973
+    M04: 0.9013
+[CNN1D | seed=42] M02: acc=0.9840 | f1=0.9838 | ep=13 | 50.0s
+[CNN1D | seed=42] M03: acc=0.9467 | f1=0.9457 | ep=25 | 78.3s
+[CNN1D | seed=42] M04: acc=0.9867 | f1=0.9866 | ep=14 | 52.1s
+[CNN1D | seed=7] M02: acc=0.9947 | f1=0.9946 | ep=22 | 70.3s
+[CNN1D | seed=7] M03: acc=0.9413 | f1=0.9397 | ep=48 | 136.6s
+[CNN1D | seed=7] M04: acc=0.9947 | f1=0.9947 | ep=19 | 75.9s
+[CNN1D | seed=123] M02: acc=0.9867 | f1=0.9865 | ep=11 | 45.2s
+[CNN1D | seed=123] M03: acc=0.9813 | f1=0.9813 | ep=14 | 57.9s
+[CNN1D | seed=123] M04: acc=0.9973 | f1=0.9973 | ep=11 | 50.6s
+
+>>> CNN1D OOF Accuracy: 0.982222 | Macro-F1: 0.982129
+    M02: 0.9920
+    M03: 0.9573
+    M04: 0.9973
+
+>>> Lineal 4 tramos (Rot2D) OOF Accuracy: 0.978667 | Macro-F1: 0.978578
+    M02: 1.0000
+    M03: 0.9813
+    M04: 0.9547
+
+>>> ENSAMBLE 50/50 (Transformer + Lineal) OOF Accuracy: 0.987556 | Macro-F1: 0.987481 | Errores: 14/1125
+    M02: 1.0000
+    M03: 1.0000
+    M04: 0.9627
+
+>>> ENSAMBLE 3 MODELOS (1/3 Trans + 1/3 CNN1D + 1/3 Lineal) OOF Accuracy: 0.998222 | Macro-F1: 0.998222
+    Errores totales: 2 / 1125
+    M02: 1.0000
+    M03: 1.0000
+    M04: 0.9947
+
+              precision    recall  f1-score   support
+
+     sign_01     1.0000    1.0000    1.0000       225
+     sign_02     0.9912    1.0000    0.9956       225
+     sign_03     1.0000    1.0000    1.0000       225
+     sign_04     1.0000    0.9911    0.9955       225
+     sign_05     1.0000    1.0000    1.0000       225
+
+    accuracy                         0.9982      1125
+   macro avg     0.9982    0.9982    0.9982      1125
+weighted avg     0.9982    0.9982    0.9982      1125
+
+
+--- Auditoría de errores: Ensamble 3 modelos (1/3 + 1/3 + 1/3) ---
+signer view   label  n  errors  recall
+   M04  V03 sign_04 25       2  0.9200
+
+Entrenando modelos finales (Trans 20 ep, CNN1D 14 ep, Lineal 50 ep)...
+Checkpoints finales (Transformer + CNN1D + Lineal) guardados para seed=42
+Checkpoints finales (Transformer + CNN1D + Lineal) guardados para seed=7
+Checkpoints finales (Transformer + CNN1D + Lineal) guardados para seed=123
+
+Todo finalizado en 33.09 minutos.
