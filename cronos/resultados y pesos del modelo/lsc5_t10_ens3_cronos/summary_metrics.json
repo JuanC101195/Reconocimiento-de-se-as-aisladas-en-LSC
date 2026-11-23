@@ -1,0 +1,40 @@
+{
+  "preprocess_version": "t10_trim2d_ens3_v2",
+  "device": "cpu",
+  "seeds": [
+    42,
+    7,
+    123
+  ],
+  "params": {
+    "transformer": 84034,
+    "cnn1d": 38213,
+    "linear": 15265,
+    "total": 137512
+  },
+  "final_epochs_transformer": 20,
+  "final_epochs_cnn1d": 14,
+  "lin_epochs": 50,
+  "transformer_oof": {
+    "accuracy": 0.9635555555555556,
+    "macro_f1": 0.9639819265677545
+  },
+  "cnn1d_oof": {
+    "accuracy": 0.9822222222222222,
+    "macro_f1": 0.98212850089224
+  },
+  "linear_oof": {
+    "accuracy": 0.9786666666666667,
+    "macro_f1": 0.9785784058344852
+  },
+  "ensemble_50_50_oof": {
+    "accuracy": 0.9875555555555555,
+    "macro_f1": 0.9874812440667989
+  },
+  "ensemble_3models_oof": {
+    "accuracy": 0.9982222222222222,
+    "macro_f1": 0.9982221871049305
+  },
+  "ensemble_3models_errors": 2,
+  "elapsed_seconds": 1708.93
+}

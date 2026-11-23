@@ -1,0 +1,19 @@
+=================================================================
+LSC5 - PREDICCIONES SOBRE TEST
+=================================================================
+Dataset: /home/grupo11/Dataset
+Test landmarks: /home/grupo11/Dataset/test/landmarks
+Checkpoints: /home/grupo11/resultados/lsc5_t10_ens3_cronos
+Template: /home/grupo11/Dataset/test/submission_template.csv
+
+Los 9 checkpoints están disponibles.
+Comenzando inferencia...
+
+Procesando test:   0%|          | 0/375 [00:00<?, ?it/s]Procesando test:   4%|▍         | 15/375 [00:00<00:02, 146.51it/s]Procesando test:   8%|▊         | 30/375 [00:00<00:02, 142.36it/s]Procesando test:  12%|█▏        | 45/375 [00:00<00:02, 145.56it/s]Procesando test:  16%|█▋        | 61/375 [00:00<00:02, 147.91it/s]Procesando test:  21%|██        | 77/375 [00:00<00:01, 149.98it/s]Procesando test:  25%|██▍       | 93/375 [00:00<00:01, 150.07it/s]Procesando test:  29%|██▉       | 109/375 [00:00<00:01, 151.16it/s]Procesando test:  33%|███▎      | 125/375 [00:00<00:01, 151.64it/s]Procesando test:  38%|███▊      | 141/375 [00:00<00:01, 151.18it/s]Procesando test:  42%|████▏     | 157/375 [00:01<00:01, 150.67it/s]Procesando test:  46%|████▌     | 173/375 [00:01<00:01, 150.84it/s]Procesando test:  50%|█████     | 189/375 [00:01<00:01, 151.60it/s]Procesando test:  55%|█████▍    | 205/375 [00:01<00:01, 151.50it/s]Procesando test:  59%|█████▉    | 221/375 [00:01<00:01, 151.47it/s]Procesando test:  63%|██████▎   | 237/375 [00:01<00:00, 151.15it/s]Procesando test:  67%|██████▋   | 253/375 [00:01<00:00, 151.22it/s]Procesando test:  72%|███████▏  | 269/375 [00:01<00:00, 149.89it/s]Procesando test:  76%|███████▌  | 285/375 [00:01<00:00, 150.29it/s]Procesando test:  80%|████████  | 301/375 [00:02<00:00, 150.38it/s]Procesando test:  85%|████████▍ | 317/375 [00:02<00:00, 151.06it/s]Procesando test:  89%|████████▉ | 333/375 [00:02<00:00, 151.53it/s]Procesando test:  93%|█████████▎| 349/375 [00:02<00:00, 149.79it/s]Procesando test:  97%|█████████▋| 365/375 [00:02<00:00, 150.07it/s]Procesando test: 100%|██████████| 375/375 [00:02<00:00, 150.35it/s]
+submission.csv generado en: /home/grupo11/resultados/lsc5_t10_ens3_cronos/submission.csv (375 filas)
+Distribución predicha: Counter({'sign_05': 80, 'sign_02': 77, 'sign_01': 75, 'sign_03': 73, 'sign_04': 70})
+
+=================================================================
+INFERENCIA FINALIZADA
+Archivo generado: /home/grupo11/resultados/lsc5_t10_ens3_cronos/submission.csv
+=================================================================
